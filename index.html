@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta keywords="class 1">
+    <script src="https://kit.fontawesome.com/7045981063.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Json practice</title>
+</head>
+<body>
+    <header>
+
+        <ul>
+           <h1>
+               Ejercicio 04/02/2020
+           </h1>
+        </ul>
+    </header>
+    <main>
+        <h2> Ingrese un dato </h2>
+        <input type="text" placeholder="dato aca" id="texto">
+        <h3> cuando este listo dele al boton add y su texto sera agregado al local storage en formato json</h3>
+        <button id="btn" type="button" class="btn btn-success">Add</button>
+        <button id="btn-2" type="button" class="btn btn-dark">modificar</button>
+        <h4>Cada dato tiene un lugar en la lista y se anadira a las selecciones  seleccione el dato a modificar</h4>
+        <form action="/action_page.php">
+            <input list="keys" name="keys" id="data">
+            <datalist id="keys">        
+            </datalist>
+          </form>
+
+    </main>
+    <footer>
+      <h3>resultado</h3>
+      <p id="resultados"></p>
+    </footer>
+    
+</body>
+
+<script src="scripts.js"></script>
+</html>
